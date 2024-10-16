@@ -43,6 +43,7 @@ async function loginRouteController(req, res) {
 
     const { accessToken, refreshToken } = createTokens(`${user.id}`);
 
+    res.setHeader("Access-Control-Expose-Headers", "access-token, refresh-token");
     res.header("access-token", accessToken);
     res.header("refresh-token", refreshToken);
     // اگر کد معتبر بود، ورود موفقیت آمیز
