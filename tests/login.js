@@ -18,12 +18,5 @@ const login = async (email, password) => {
   console.log(result.data);
 };
 
-/**
- *
- * @param {string} email
- * @param {string} password
- * @param {string} code
- */
-
 // login
 login("hadyrostami1385@gmail.com", "12345678");
