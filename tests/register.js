@@ -19,12 +19,6 @@ const register = async (email, password = null, code = null) => {
   console.log(result.data);
 };
 
-/**
- *
- * @param {string} email
- * @param {string} password
- * @param {string} code
- */
 
 // Send register Code
 register("hadyrostami1385@gmail.com", "12345678");
