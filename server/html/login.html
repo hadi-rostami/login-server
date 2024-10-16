@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Code</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .html_content {
+        border-radius: 20px;
+        width: min(100vh, 400px);
+        padding: 30px;
+        box-shadow: 0 0 10px #7e7e7eb9;
+      }
+      .title {
+        color: #4caf50;
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+        margin-bottom: 10px;
+      }
+
+      .mini_title{
+        margin-top: 10px;
+      }
+
+      .code_box {
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid #4caf50;
+        padding: 15px 25px;
+        color: #4caf50;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 0.09em;
+        margin-top: 30px;
+        width: fit-content;
+        margin: 30px auto;
+      }
+
+      .thanks {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="html_content">
+      <h2 class="title">Welcome Back !!</h2>
+      <hr>
+      <p class="mini_title">
+        Thank you for using <strong>family-bots.ir</strong>.
+      </p>
+      <p class="code_box">{{code}}</p>
+
+      <p style="margin-bottom: 10px;">
+        Please use this code to log in. If you didn't request this, please
+        ignore this email.
+      </p>
+      <hr>
+
+      <p class="thanks">Best regards,<br />The Family Bots Team</p>
+    </div>
+  </body>
+</html>

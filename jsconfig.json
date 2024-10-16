@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", // نسخه ECMAScript هدف
+    "module": "commonjs", // سیستم ماژول، برای Node.js از commonjs استفاده می‌شود
+    "checkJs": true, // بررسی خطاهای جاوااسکریپت
+    "moduleResolution": "node", // برای پیدا کردن ماژول‌ها در Node.js
+    "allowSyntheticDefaultImports": true // برای import های پیش‌فرض از کتابخانه‌ها
+  },
+  "exclude": [
+    "node_modules" // دایرکتوری‌های که نباید بررسی شوند
+  ]
+}
