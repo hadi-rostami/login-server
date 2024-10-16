@@ -23,12 +23,6 @@ const forgot = async (email, password = null, code = null) => {
   console.log(result.data);
 };
 
-/**
- *
- * @param {string} email
- * @param {string} password
- * @param {string} code
- */
 
 // Send forgot Code
 forgot("hadyrostami1385@gmail.com");
